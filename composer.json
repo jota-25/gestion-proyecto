@@ -1,0 +1,14 @@
+{
+    "name": "senati/gestion-proyectos",
+    "description": "Sistema de Gestion de Clientes y Proyectos",
+
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/"
+        }
+    },
+
+    "require": {
+        "setasign/fpdf": "^1.8"
+    }
+}

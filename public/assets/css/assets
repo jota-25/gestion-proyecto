@@ -1,0 +1,101 @@
+:root{
+
+    --primary:#2563eb;
+    --success:#16a34a;
+    --danger:#dc2626;
+    --dark:#0f172a;
+    --light:#f8fafc;
+
+}
+
+body{
+
+    font-family:'Poppins',sans-serif;
+
+    background:#f1f5f9;
+
+}
+
+.navbar-custom{
+
+    background:var(--dark);
+
+}
+
+.card{
+
+    border:none;
+
+    border-radius:18px;
+
+    box-shadow:
+    0 10px 30px rgba(0,0,0,.08);
+
+    transition:.3s;
+
+}
+
+.card:hover{
+
+    transform:translateY(-4px);
+
+}
+
+.table{
+
+    background:white;
+
+    border-radius:15px;
+
+    overflow:hidden;
+
+}
+
+.btn{
+
+    border-radius:12px;
+
+}
+
+.dashboard-card{
+
+    text-align:center;
+
+    padding:30px;
+
+}
+
+.dashboard-card i{
+
+    font-size:3rem;
+
+    margin-bottom:15px;
+
+}
+
+.page-title{
+
+    font-weight:700;
+
+    margin-bottom:20px;
+
+}
+.login-container{
+
+    min-height:100vh;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+}
+
+.login-card{
+
+    width:420px;
+
+    border-radius:20px;
+
+}
