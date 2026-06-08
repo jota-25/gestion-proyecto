@@ -1,21 +1,15 @@
-<!DOCTYPE html>
-<html>
+<?php require_once '../views/layouts/header.php'; ?>
 
-<head>
 
-<title>Proyectos</title>
-
-<link
-href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
-rel="stylesheet">
-
-</head>
-
-<body>
 
 <div class="container mt-4">
+<h2 class="page-title">
 
-<h2>Proyectos</h2>
+<i class="bi bi-kanban-fill text-primary"></i>
+
+Proyectos
+
+</h2>
 
 <?php if(isset($_GET['success'])): ?>
 
@@ -43,22 +37,26 @@ rel="stylesheet">
 
 <a
 href="proyecto_create.php"
-class="btn btn-primary mb-3">
+class="btn btn-primary">
+
+<i class="bi bi-plus-circle"></i>
 
 Nuevo Proyecto
 
 </a>
 
 <a
-href="reporte_proyectos.php"
+href="reporte_clientes.php"
 target="_blank"
-class="btn btn-danger mb-3">
+class="btn btn-danger">
+
+<i class="bi bi-file-earmark-pdf-fill"></i>
 
 Exportar PDF
 
 </a>
 
-<table class="table table-bordered table-hover">
+<table class="table table-hover align-middle">
 
 <thead class="table-dark">
 
@@ -133,6 +131,4 @@ Volver
 
 </div>
 
-</body>
-
-</html>
+<?php require_once '../views/layouts/footer.php'; ?>

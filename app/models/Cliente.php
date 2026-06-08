@@ -97,4 +97,14 @@ class Cliente
 
         return $stmt->fetchAll();
     }
+
+    public function count()
+    {
+        $stmt = $this->db->query(
+            "SELECT COUNT(*) AS total
+            FROM clientes"
+        );
+
+        return $stmt->fetch()['total'];
+    }
 }

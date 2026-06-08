@@ -9,7 +9,7 @@
 name="viewport"
 content="width=device-width, initial-scale=1.0">
 
-<title>Sistema de Gestión</title>
+<title>Sistema Gestión Proyectos</title>
 
 <link
 href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
@@ -48,7 +48,7 @@ href="assets/css/style.css">
 
 <i class="bi bi-kanban-fill"></i>
 
-Sistema Gestión Proyectos
+Sistema Gestión
 
 </a>
 
@@ -58,6 +58,8 @@ Sistema Gestión Proyectos
 
 <span class="text-white me-3">
 
+<i class="bi bi-person-circle"></i>
+
 <?= $_SESSION['user_name'] ?>
 
 </span>
@@ -66,7 +68,7 @@ Sistema Gestión Proyectos
 href="logout.php"
 class="btn btn-danger btn-sm">
 
-Salir
+Cerrar Sesión
 
 </a>
 

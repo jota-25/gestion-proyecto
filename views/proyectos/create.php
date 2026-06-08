@@ -1,19 +1,9 @@
-<!DOCTYPE html>
-<html>
+<?php require_once '../views/layouts/header.php'; ?>
+<div class="container mt-5">
 
-<head>
+<div class="card">
 
-<title>Nuevo Proyecto</title>
-
-<link
-href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
-rel="stylesheet">
-
-</head>
-
-<body>
-
-<div class="container mt-4">
+<div class="card-body p-4">
 
 <h2>Nuevo Proyecto</h2>
 
@@ -115,6 +105,6 @@ Guardar
 </form>
 
 </div>
-
-</body>
-</html>
+</div>
+</div>
+<?php require_once '../views/layouts/footer.php'; ?>

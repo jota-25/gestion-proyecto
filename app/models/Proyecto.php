@@ -120,4 +120,13 @@ class Proyecto
 
         return $stmt->execute([$id]);
     }
+    public function count()
+    {
+        $stmt = $this->db->query(
+            "SELECT COUNT(*) AS total
+            FROM proyectos"
+        );
+
+        return $stmt->fetch()['total'];
+    }
 }

@@ -4,31 +4,46 @@
 
 <h1 class="page-title">
 
+<i class="bi bi-speedometer2"></i>
+
 Panel de Administración
 
 </h1>
 
-<div class="row">
+<div class="row g-4">
 
 <div class="col-md-6">
 
-<div class="card dashboard-card">
+<div class="card">
 
-<i class="bi bi-people-fill text-success"></i>
+<div class="card-body text-center p-5">
 
-<h3>Clientes</h3>
+<i
+class="bi bi-people-fill text-success"
+style="font-size:60px;">
+</i>
 
-<p>
-Administrar clientes registrados
-</p>
+<h2 class="mt-3">
+
+<?= $totalClientes ?>
+
+</h2>
+
+<h4>
+
+Clientes Registrados
+
+</h4>
 
 <a
 href="clientes.php"
-class="btn btn-success">
+class="btn btn-success mt-3">
 
-Gestionar
+Gestionar Clientes
 
 </a>
+
+</div>
 
 </div>
 
@@ -36,23 +51,36 @@ Gestionar
 
 <div class="col-md-6">
 
-<div class="card dashboard-card">
+<div class="card">
 
-<i class="bi bi-kanban-fill text-primary"></i>
+<div class="card-body text-center p-5">
 
-<h3>Proyectos</h3>
+<i
+class="bi bi-kanban-fill text-primary"
+style="font-size:60px;">
+</i>
 
-<p>
-Administrar proyectos registrados
-</p>
+<h2 class="mt-3">
+
+<?= $totalProyectos ?>
+
+</h2>
+
+<h4>
+
+Proyectos Registrados
+
+</h4>
 
 <a
 href="proyectos.php"
-class="btn btn-primary">
+class="btn btn-primary mt-3">
 
-Gestionar
+Gestionar Proyectos
 
 </a>
+
+</div>
 
 </div>
 

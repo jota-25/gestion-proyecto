@@ -1,27 +1,25 @@
-<!DOCTYPE html>
-<html>
+<?php require_once '../views/layouts/header.php'; ?>
 
-<head>
+<div class="login-container">
 
-<title>Login</title>
+<div class="card login-card">
 
-<link href=
-"https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
-rel="stylesheet">
+<div class="card-body p-5">
 
-</head>
+<div class="text-center mb-4">
 
-<body>
+<i
+class="bi bi-shield-lock-fill text-primary"
+style="font-size:60px;">
+</i>
 
-<div class="container mt-5">
+<h3 class="mt-3">
 
-<div class="row justify-content-center">
-
-<div class="col-md-4">
-
-<h2 class="mb-4">
 Iniciar Sesión
-</h2>
+
+</h3>
+
+</div>
 
 <form
 action="authenticate.php"
@@ -66,6 +64,4 @@ Ingresar
 
 </div>
 
-</body>
-
-</html>
+<?php require_once '../views/layouts/footer.php'; ?>

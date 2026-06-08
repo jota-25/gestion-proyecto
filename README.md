@@ -1,12 +1,13 @@
 # Sistema de Gestión de Clientes y Proyectos
 
-Proyecto desarrollado como Trabajo Final para el curso Backend Developer Web.
-
+Este sistema fue desarrollado como una aplicación de gestión de clientes y proyectos enfocada en demostrar conceptos de desarrollo backend con PHP.
 ## Descripción
 
 Aplicación web desarrollada en PHP utilizando Programación Orientada a Objetos (POO), patrón MVC y PDO para la gestión de clientes y proyectos empresariales.
 
 El sistema permite administrar clientes, registrar proyectos asociados, generar reportes PDF y controlar el acceso mediante autenticación segura.
+
+La administración de usuarios se mantiene fuera del alcance de esta versión para mantener el enfoque en la gestión de clientes y proyectos. El sistema incluye autenticación mediante una cuenta administrativa inicial y una estructura preparada para futuras ampliaciones, como roles, permisos y gestión completa de usuarios.
 
 ## Características
 
@@ -36,7 +37,7 @@ El sistema permite administrar clientes, registrar proyectos asociados, generar 
 
 ### 1. Clonar el repositorio
 
-git clone URL_DEL_REPOSITORIO
+git clone gh repo clone jota-25/gestion-proyecto
 
 ### 2. Instalar dependencias
 
@@ -91,3 +92,10 @@ public/
 
 reports/
 
+## Prueba
+
+Despues de configurar y que se cree la database y hacer que se creen las tablas para empezar a probar el sistema hacerlo desde el endpoint
+
+.../public/index.php
+
+y iniciar seccion con el usuario inicial 

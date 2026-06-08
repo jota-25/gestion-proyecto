@@ -1,18 +1,10 @@
-<!DOCTYPE html>
-<html>
-<head>
+<?php require_once '../views/layouts/header.php'; ?>
 
-<title>Nuevo Cliente</title>
+<div class="container mt-5">
 
-<link
-href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
-rel="stylesheet">
+<div class="card">
 
-</head>
-
-<body>
-
-<div class="container mt-4">
+<div class="card-body p-4">
 
 <h2>Registrar Cliente</h2>
 
@@ -65,5 +57,8 @@ Guardar
 
 </div>
 
-</body>
-</html>
+</div>
+
+</div>
+
+<?php require_once '../views/layouts/footer.php'; ?>
