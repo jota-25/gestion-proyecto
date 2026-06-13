@@ -33,6 +33,45 @@ La administración de usuarios se mantiene fuera del alcance de esta versión pa
 * CSS3
 * JavaScript
 
+## Seguridad
+
+El sistema implementa autenticación basada en sesiones para proteger el acceso a las funcionalidades internas.
+
+Características:
+
+- Inicio de sesión.
+- Cierre de sesión.
+- Middleware de protección de rutas.
+- Control de acceso a páginas privadas.
+- Consultas preparadas mediante PDO para prevenir SQL Injection.
+
+---
+
+## Reportes
+
+El sistema permite generar reportes PDF mediante FPDF.
+
+Reportes disponibles:
+
+- Clientes registrados.
+- Proyectos registrados.
+
+---
+
+## Base de Datos
+
+La estructura de la base de datos se administra mediante migraciones.
+
+Beneficios:
+
+- Versionamiento del esquema.
+- Creación automática de tablas.
+- Facilidad para desplegar en nuevos entornos.
+
+Además incluye seeders para cargar información inicial.
+
+---
+
 ## Instalación
 
 ### 1. Clonar el repositorio
